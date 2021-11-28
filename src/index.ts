@@ -1,7 +1,5 @@
 function solve(a: number[] = []): number {
-    let x: number = 0;
     const isEven: boolean = a.length % 2 === 0;
-
     return isEven ? a[Math.floor(a.length / 2) - 1] : a[Math.floor(a.length / 2)];
 }
 
